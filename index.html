@@ -17,7 +17,7 @@
 
   <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary static-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
    
    <div class="container">
     <a class="navbar-brand" href="#">
@@ -26,23 +26,24 @@
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
+    </button>
+
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link text-center" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#sponsorships">Sponsorships</a>
+            <a class="nav-link  text-center" href="#sponsorships">Sponsorships</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="#sponsors">Sponsors</a>
+            <a class="nav-link  text-center" href="#sponsors">Sponsors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#volunteer">Volunteer</a>
+            <a class="nav-link  text-center" href="#volunteer">Volunteer</a>
           </li>
             <li class="nav-item">
-            <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Become a Sponsor</a>
+            <button type="button" class="btn btn-light mx-auto" data-toggle="modal" data-target=".bd-example-modal-lg">Become a Sponsor</button>
           </li>
       </ul>
     </div>
@@ -57,14 +58,20 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300">
-        <h1 class="display-3">Germanna Scholarship Monte Carlo 2020</h1>
+        <div class="row">
+          <div class="col-xl-10 mx-auto">
+      <!--   <img src="https://www.germanna.edu/wp-content/uploads/smc.jpg" class="img" alt="scholarship monte carlo logo with blue background gradient" height="180" width="300"> -->
+        <h1 class="display-3 text-uppercase">GermannaCC Scholarship Monte Carlo 2020</h1>
         <p class="py-3">April, 26, 2020 <br/> 6 p.m. to 11 p.m.</p>
         <a class="btn btn-light mx-3" href="#volunteer" data-toggle="modal" data-target=".bd-example-modal-lg">Buy Tickets</a>
       </div>
+      </div>
+    </div>
     </div>
   </div>
 </header>
+
+<div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
 
   <div class="container-fluid py-5 bg-light" id="about">
     <div class="row">
@@ -78,12 +85,14 @@
 
         <h2 class="display-3 text-uppercase">About</h2>
 
-                  <p>April 26, 2020<br/>
+                <p>April 26, 2020<br/>
                   Tickets: $90<br/>
                   6 p.m. to 11 p.m.<br/>
-                  Joseph R. Daniel Technology Center</p>
+                  Joseph R. Daniel Technology Center
+                </p>
 
-                <p><a href="#">Ged Directions</a></p>
+                <p><a href="https://www.facebook.com/ScholarshipMonteCarlo/">Get Updates</a> | <a href="http://maps.google.com/maps?q=Germanna+Community+College,+Technology+Drive,+Culpeper,+VA&hl=en&sll=37.0625,-95.677068&sspn=42.716829,56.513672&oq=germanna+com&hq=Germanna+Community+College,+Technology+Drive,+Culpeper,+VA&t=m&z=14">Get Directions</a></p>
+
   
     </div>
 
@@ -185,7 +194,7 @@
   <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Bronze</h3>
+        <p class="h3 card-title text-uppercase">Bronze</p>
         <p class="lead">$350</p>
         <p class="card-text">
         Includes 2 event tickets and more.*</p>
@@ -195,7 +204,7 @@
   <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Silver</h3>
+        <p class="h3 card-title text-uppercase">Silver</p>
         <p class="lead">$500</p>
         <p class="card-text">
         Includes 4 event tickets and more.*</p>
@@ -205,7 +214,7 @@
   <div class="col-md-4 mb-2">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Gold</h3>
+        <p class="h3 card-title text-uppercase">Gold</p>
         <p class="lead">$750</p>
         <p class="card-text">
         Includes 6 event tickets and more.*</p>
@@ -215,7 +224,7 @@
   <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title">Platinum</h3>
+        <p class="h3 card-title">Platinum</p>
         <p class="lead text-uppercase">$1,000</p>
         <p class="card-text">
         Includes 8 event tickets and more.*</p>
@@ -225,7 +234,7 @@
     <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Prime</h3>
+        <p class="h3 card-title text-uppercase">Prime</p>
       <p class="lead">$2,000</p>
         <p class="card-text">
         Includes 9 event tickets and more.*</p>
@@ -235,7 +244,7 @@
     <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Palladium</h3>
+        <p class="h3 card-title text-uppercase">Palladium</p>
         <p class="lead">$2,500</p>
         <p class="card-text ">
         Includes 10 event tickets and more.*</p>
@@ -245,7 +254,7 @@
     <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Emerald</h3>
+        <p class="h3 card-title text-uppercase">Emerald</p>
         <p class="lead">$3,000</p>
         <p class="card-text">
         Includes 11 event tickets and more.*</p>
@@ -255,7 +264,7 @@
     <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Titanium</h3>
+        <p class="h3 card-title text-uppercase">Titanium</p>
         <p class="lead">$3,500</p>
         <p class="card-text">
         Includes 12 event tickets and more.*</p>
@@ -265,7 +274,7 @@
     <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Event</h3>
+        <p class="h3 card-title text-uppercase">Event</p>
        <p class="lead">$5,000</p>
         <p class="card-text">
         Includes 16 event tickets and more.*</p>
@@ -275,7 +284,7 @@
     <div class="col-md-4 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Diamond</h3>
+        <p class="h3 card-title text-uppercase">Diamond</p>
         <p class="lead">$10,000</p>
         <p class="card-text">
         Benefits negotiable.</p>
@@ -285,7 +294,7 @@
     <div class="col-md-8 mb-4">
     <div class="card">
       <div class="card-body">
-        <h3 class="card-title text-uppercase">Premiere</h3>
+        <p class="h3 card-title text-uppercase">Premiere</p>
         <p class="lead">$25,000</p>
         <p class="card-text">
         Benefits negotiable. Contact the Foundation Office to discuss the opportunity.</p>
@@ -358,8 +367,15 @@
 </div>
 
 
+</div>
+
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fa fa-chevron-up"></span></a>
+
+
   <footer id="sticky-footer" class="py-4 bg-primary text-white">
     <div class="container text-center">
+      <p class="pb-0 mb-0"><a href="https://www.germanna.edu/educational-foundation" class="text-white-50">Germanna Educational Foundation</a></p>
       <small>&copy; Germanna Community College</small>
     </div>
   </footer>
